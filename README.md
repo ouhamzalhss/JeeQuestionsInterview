@@ -15,13 +15,13 @@ Stateless : la session de l’utilisateur authentifié est gérée par le client
 •	L’implication du client final tout au long du projet, 
 •	Des spécifications réduites en début de projet,
 - 8 .	Maven : 
-•	Gérer les dépendances
-•	Lancer la compilation des sources
-•	Lancer les Test Unitaires 
-•	Générer les packages (jar, war, ear) 
-•	Installer les packages dans le repository 
-•	Déployer l’application dans le serveur 
-•	Générer la documentation du projet
+-	Gérer les dépendances
+-	Lancer la compilation des sources
+-	Lancer les Test Unitaires 
+-	Générer les packages (jar, war, ear) 
+-	Installer les packages dans le repository 
+-	Déployer l’application dans le serveur 
+-	Générer la documentation du projet
 - 9 .	Application Mobile :
 •	Androïde : Java
 •	AOS : Swift, Object C
