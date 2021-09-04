@@ -1,5 +1,7 @@
-Les Questions pour un entretien profile JAVA/JEE
-PArtie 1: Questions divers
+## <samp>Les Questions pour un entretien profile JAVA/JEE!</samp>
+
+#### Partie 1: Questions divers
+
 1.	JEE : L’ensemble de spécifications, où le serveur d’application est son implémentation.
 2.	La version courante de la specification JEE est : Jakarta EE 9
 3.	Les versions LTS java sont : Java 8, 11, 17
