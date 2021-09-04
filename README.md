@@ -29,7 +29,7 @@
   *  Programmation fonctionnelle
   *  Support de kotlen
   *  Supprt Http2
-#### Partie 1: Spring core
+#### Partie 2: Spring core
 - 10 .	CotextLoaderListener est appelé par Tomcat au moment du démarrage de l’application. Ce listener cherchera le fichier de beans spring « spring-beans.xml » stocké dans le dossier WEB-INF. ce qui permet de faire l’injection des dépendances.
 - 11 .	Configuration  Spring container :
   *  XML (ClassPathXmlAppContext(path xml file)
