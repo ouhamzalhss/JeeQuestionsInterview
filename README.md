@@ -30,7 +30,7 @@
   *   Déployer l’application dans le serveur 
   *   Générer la documentation du projet	
 
-- 9 .	Lombok : une librairie java pour le génération de code automatique. Getter et setter …
+- 9 .	Lombok : une librairie java pour la génération de code automatique. Getter et setter …
 
 - 10 .	DevTools : une librairie java vient avec spring boot, permet le rechargement automatiquement des classes Java et leur configuration côté serveur. Après les changements côté serveur, il s'est déployé dynamiquement,
 
@@ -47,10 +47,11 @@
   *  Code source Java (AnnotationConfigAppContext(ClassConfig.class)
 
 - 15 .	Bean scope :
-  *  Singleton
+  *  Singleton ( scope par défaut )
   *  Prototype
   *  Request (Application web)
   *  Session (Application web)
+  *  Global-session
 
 - 16 .	Spring container: 
   *  Création et gestion des beans (IOC)
