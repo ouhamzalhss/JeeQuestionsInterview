@@ -94,3 +94,5 @@
 - 24 . Actuator: Une dépendance spring boot pour faire le monitoring de votre application en production.
 
 - 25 . C'est quoi la différence entre @Controller et @RestController: Les deux servent à marquer une classe comme contrôleur, la différence est le type de retour, les méthodes de @Controller renvoient une vue HTML ou JSP, Tandis que celles de @RestController renvoient les données aux formats JSON, XML... ( @RestController = @Controller + @ResponseBody)
+
+## <samp>La video youtube : https://youtu.be/QEE5W-6wBjE </samp>
