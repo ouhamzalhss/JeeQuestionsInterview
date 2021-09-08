@@ -6,7 +6,7 @@
 
 - 2 . La version courante de la specification JEE est : Jakarta EE 9 (le 25 Mai 2021)
 
-- 3 .	Les versions LTS java sont : Java 8, 11, 17
+- 3 .	Les versions LTS Java sont : Java 8, 11, 17
 
 - 4 .	AOP : La séparation des aspects métiers et des aspects techniques d'une application est rendu possible grâce à la programmation Orienté Aspect.
 
@@ -84,3 +84,12 @@
   *  Serveur web intégré (Tomcat)
   *  Gestion de dépendances ( starters )
   *  Création des applications standalone (jar)
+
+- 22 .	@SpringBootApplication : C'est une annotation de spring boot qui combine trois autres annotations:
+  *  @Configuration: pour marquer une classe comme classe de configuration,
+  *  @EnableAutoConfiguration: pour activer la configuration automatique de spring boot.
+  *  @ComponentScan: pour scanner les différentes classes constituant les Beans de notre application.
+
+- 23 . Actuator: Une dépendance spring boot pour faire le monitoring de votre application en production.
+
+- 24 . C'est quoi la différence entre @Controller et @RestController: Les deux sert à marquer une classe comme contrôleur, la différence représente par le type de retour, les méthodes de @Controller renvoi une vue HTML ou JSP, Tandis que @RestController renvoi les données aux formats JSON, XML... ( @RestController = @Controller + @ResponseBody)
