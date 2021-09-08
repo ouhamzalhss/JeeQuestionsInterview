@@ -35,48 +35,48 @@
 - 10 .	DevTools : une librairie java vient avec spring boot, permet le rechargement automatiquement des classes Java et leur configuration côté serveur. Après les changements côté serveur, il s'est déployé dynamiquement,
 
 #### Partie 2: Spring framework
-- 11 . Spring est un framework open source pour construire et définir l'infrastructure d'une application Java, dont il facilite le développement et les tests.
+- 11 . Spring : est un framework open source pour construire et définir l'infrastructure d'une application Java, dont il facilite le développement et les tests.
 
-- 12 .	CotextLoaderListener est un listener appelé par Tomcat au moment du démarrage de l’application. Ce listener cherchera le fichier de beans spring. ce qui permet de faire l’injection des dépendances.
+- 12 . Spring : est un framework de l’inversion contrôle pour créer des applications entreprises, on peut le sembler avec un conteneur web (tomcat) pour avoir un serveur application.
 
-- 13 .	DispatcherServlet : Une Servlet qui joue le rôle de front contrôleur, pour traiter les requêtes de clients.
+- 13 .	CotextLoaderListener est un listener appelé par Tomcat au moment du démarrage de l’application. Ce listener cherchera le fichier de beans spring. ce qui permet de faire l’injection des dépendances.
 
-- 14 .	Differentes Configuration de Spring container :
+- 14 .	DispatcherServlet : Une Servlet qui joue le rôle de front contrôleur, pour traiter les requêtes de clients.
+
+- 15 .	Differentes Configuration de Spring container :
   *  XML (ClassPathXmlAppContext(path xml file)
   *  Annotations (ClassPathXmlAppContext(path xml file)
   *  Code source Java (AnnotationConfigAppContext(ClassConfig.class)
 
-- 15 .	Bean scope :
+- 16 .	Bean scope :
   *  Singleton ( scope par défaut )
   *  Prototype
   *  Request (Application web)
   *  Session (Application web)
-  *  Global-session
+  *  Global-session (Application web)
 
-- 16 .	Spring container: 
+- 17 .	C'est quoi Spring container: 
   *  Création et gestion des beans (IOC)
   *  Injecter ces beans pour l’utiliser (DI)
 
-- 17 .	Les types d’injection d’un Bean Spring:
+- 18 .	Les types d’injection d’un Bean Spring:
   *  Via le constructeur (recommandé)
   *  Sous forme attribut avec l’annotation @Autoward
 
-- 18 .	C’est quoi la differnec entre :
+- 19 .	C’est quoi la differnec entre :
   *  @Param : Un parametre Spring Data
-  *  @RequestParam : Un parametre Spring MVC, sous la forme ( ?variable=valeur ).
-  *  @PathVariable : Un parametre Spring MVC, sous la forme ( /varibale ).
+  *  @RequestParam : Un parametre Spring MVC, sous la forme ( url?variable=valeur ).
+  *  @PathVariable : Un parametre Spring MVC, sous la forme ( url/varibale ).
   *  @PathParam : Un parametre Jersey
-  *  @WebParam : Un parametre JWS-WS
+  *  @WebParam : Un parametre JAX-WS
 
-- 19 .	Nouveautés de Spring 5 : Vient avec des fonctionnalités suivantes:
+- 20 .	Nouveautés de Spring 5 : Vient avec des fonctionnalités suivantes:
   *  Support de java 8 / 9
-  *  Support de Hibernate 5 et Junit5
+  *  Support de Hibernate 5 et Junit 5
   *  Support JPA 2
   *  Programmation fonctionnelle
   *  Support de kotlen
-  *  Supprt Http2
-
-- 20 . Spring : Framework de l’inversion contrôle pour créer des applications entreprises, on peut le sembler avec un conteneur web (tomcat) pour avoir un serveur application.
+  *  Supprt de Http2
 
 - 21 .	Spring boot : un module spring, ou une super couche de spring pour créer des applications spring avec zéro configuration.
 
@@ -86,11 +86,11 @@
   *  Gestion de dépendances ( starters )
   *  Création des applications standalone (jar)
 
-- 22 .	@SpringBootApplication : C'est une annotation de spring boot qui combine trois autres annotations:
-  *  @Configuration: pour marquer une classe comme classe de configuration,
+- 23 .	@SpringBootApplication : C'est une annotation de spring boot qui combine trois autres annotations:
+  *  @Configuration: pour marquer une classe comme une classe de configuration,
   *  @EnableAutoConfiguration: pour activer la configuration automatique de spring boot.
   *  @ComponentScan: pour scanner les différentes classes constituant les Beans de notre application.
 
-- 23 . Actuator: Une dépendance spring boot pour faire le monitoring de votre application en production.
+- 24 . Actuator: Une dépendance spring boot pour faire le monitoring de votre application en production.
 
-- 24 . C'est quoi la différence entre @Controller et @RestController: Les deux sert à marquer une classe comme contrôleur, la différence représente par le type de retour, les méthodes de @Controller renvoi une vue HTML ou JSP, Tandis que @RestController renvoi les données aux formats JSON, XML... ( @RestController = @Controller + @ResponseBody)
+- 25 . C'est quoi la différence entre @Controller et @RestController: Les deux servent à marquer une classe comme contrôleur, la différence est le type de retour, les méthodes de @Controller renvoient une vue HTML ou JSP, Tandis que celles de @RestController renvoient les données aux formats JSON, XML... ( @RestController = @Controller + @ResponseBody)
