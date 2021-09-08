@@ -10,7 +10,7 @@
 
 - 4 .	AOP : La séparation des aspects métiers et des aspects techniques d'une application est rendu possible grâce à la programmation Orienté Aspect.
 
-- 5 .	TDD : Test Driver Développement : développer d’abord les tests.
+- 5 .	TDD : Test Driven Développement : développer d’abord les tests.
 
 - 6 .	Statefull et Statless : Deux approches pour sécuriser application web.
   *  Statfull : la session de l’utilisateur authentifié est gérée par le serveur (avec état)
