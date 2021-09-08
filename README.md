@@ -22,23 +22,46 @@
   *   Installer les packages dans le repository 
   *   Déployer l’application dans le serveur 
   *   Générer la documentation du projet	
-- 10 .	Nouveautés de Spring 5 : Vient avec des fonctionnalités suivantes:
+- 9 .	Nouveautés de Spring 5 : Vient avec des fonctionnalités suivantes:
   *  Support de java 8 / 9
   *  Support de Hibernate 5 et Junit5
   *  Support JPA 2
   *  Programmation fonctionnelle
   *  Support de kotlen
   *  Supprt Http2
-#### Partie 2: Spring core
+- 10 . Spring : Framework de l’inversion contrôle pour créer des applications entreprises, on peut le sembler avec un conteneur web (tomcat) pour avoir un serveur application.
+- 11 .	Spring boot : un module spring, ou une super couche de spring pour créer des applications spring avec zéro configuration.
+- 12 .	Avantages spring boot :
+  *  Auto configuration
+  *  Serveur web intégré (Tomcat)
+  *  Gestion de dépendances ( starters )
+  *  Création des applications standalone (jar)
+- 13 .	Lombok : une librairie java pour le génération de code automatique. Getter et setter …
+
+#### Partie 2: Spring framework
+- 10 . Spring est un framework open source pour construire et définir l'infrastructure d'une application Java, dont il facilite le développement et les tests.
 - 10 .	CotextLoaderListener est appelé par Tomcat au moment du démarrage de l’application. Ce listener cherchera le fichier de beans spring « spring-beans.xml » stocké dans le dossier WEB-INF. ce qui permet de faire l’injection des dépendances.
-- 11 .	Configuration  Spring container :
+- 15 .	DispatcherServlet : Une Servlet qui joue le rôle de front contrôleur, pour traiter les requêtes de clients.
+- 11 .	Differentes Configuration de Spring container :
   *  XML (ClassPathXmlAppContext(path xml file)
   *  Annotations (ClassPathXmlAppContext(path xml file)
   *  Code source Java (AnnotationConfigAppContext(ClassConfig.class)
 - 12 .	Bean scope :
   *  Singleton
   *  Prototype
-  *  Request (application web)
-  *  Session (application web)
+  *  Request (Application web)
+  *  Session (Application web)
+- 19 .	Spring container: 
+  *  Création et gestion des beans (IOC)
+  *  Injecter ces beans pour l’utiliser (DI)
+- 20 .	Les types d’injection d’un Bean Spring:
+  *  Via le constructeur (recommandé)
+  *  Sous forme attribut avec l’annotation @Autoward
+- 21 .	C’est quoi la differnec entre :
+  *  @Param : Un parametre Spring Data
+  *  @RequestParam : Un parametre Spring MVC, sous la forme ( ?variable=valeur ).
+  *  @PathVariable : Un parametre Spring MVC, sous la forme ( /varibale ).
+  *  @PathParam : Un parametre Jersey
+  *  @WebParam : Un parametre JWS-WS
 
 
