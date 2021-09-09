@@ -1,6 +1,6 @@
 ## <samp>Les Questions pour un entretien profile JAVA/JEE!</samp>
 
-#### Partie 1: Questions divers
+#### Partie 1: Questions générales
 
 - 1 . JEE : C'est l’ensemble de spécifications (JPA, JAX-WS, JMS...) pour créer des applications web Java, et c'est le serveur d’application qui fournit les implémentations.
 
